@@ -1,0 +1,19 @@
+{
+  "name": "onivue-bulk-compress-svg",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts",
+    "clean": "bun run clean.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "svgo": "^3.3.2"
+  }
+}
